@@ -1,0 +1,88 @@
+*{
+    /* font-family:Georgia, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    @font-face {
+      font-family: T-012;
+      src: url(assets/fonts/T-012-OTF/T-012.otf);
+    }
+    font-family: T-012;
+}
+
+:root{
+    --color1: #f0f5f9;
+    --color2: #c9d6df;
+    --color3: #52616b;
+    --color4: #1e2022;
+}
+
+[data-theme="light"] {
+  --background-color: var(--color2);
+  --font-color: black;
+}
+
+[data-theme="dark"] {
+  --background-color: var(-color3);
+  --font-color: var(--color4);
+}
+
+body {
+    display: grid;
+    grid-template-columns: .5fr 3fr .5fr;
+    grid-template-rows: 6.5rem 2fr 8.5rem;
+    min-height: 100svh;
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+nav {
+    color: black;
+    margin: 1.15rem;
+    font-size: 1.5rem;
+}
+
+.icon-button {
+  box-shadow: none;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+
+}
+
+#toggleButton {
+  display: flex;
+  background: none;
+  border: none;
+  outline: none;
+
+}
+
+#toggleButton:hover {
+  background-color: white;
+}
+
+.panel {
+    background-image: url(../images/0_mysterious\ ruins\ of\ a\ futuristic\ city\,\ infinite\ cy_esrgan-v1-x2plus.png);
+    background-position:left 300rem top 48rem;
+}
+
+.site-header {
+    grid-column: 1/-1;
+    background-color: var(--color3);
+    position:relative;
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    border-bottom: solid 15px var(--gray);
+}
+
+.site-footer {
+    grid-column: 1/-1;
+    background-color: var(--color3);
+    border-top: solid 15px var(--gray);
+}
+
+.footer-list {
+    max-width: 6rem;
+}
+
+.footer-list:hover {
+    color: var(--gray);
+}

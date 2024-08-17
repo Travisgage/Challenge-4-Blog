@@ -1,0 +1,41 @@
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    border: solid var(--color2) 4px;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+
+.blog-container-title {
+    font-size: 2.25rem;
+    text-align: center;
+    border-bottom: solid var(--color3;
+    
+}
+
+.blog-container-username {
+    font-size: 1.75rem;
+
+}
+
+.blog-container-content {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.back-button {
+    font-size: 1rem;
+    padding: 0.3rem;
+}
+
+.back-button:hover {
+    background-color: black;
+}
+
+        
+.site-header div {
+    display: flex;
+}
+

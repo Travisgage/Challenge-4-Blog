@@ -1,0 +1,48 @@
+.site-form {
+    margin: 2rem;
+    padding: 2rem 2rem;
+    min-width: 20rem;
+}
+
+legend {
+    font-size: 1.5rem;
+    padding: 0.25rem;
+    color: var(--coral);
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+label {
+    display: block;
+    padding: .25rem;
+}
+
+input {
+   border: solid 2px var(--color4);
+   width: 60%;
+   padding: 0.2rem;
+   font-size: 1rem;
+}
+
+textarea {
+    border: solid 2px var(--color4);
+    padding: 0.2rem;
+    width: 100%;
+    font-size: 1rem;
+}
+
+button {
+    border: solid 3px var(--color4);
+    background-color: var(--color4);
+    box-shadow: 3px 3px 3px var(--gray);
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--color1);
+}
+
+button:hover {
+    background-color: var(--color2);
+    color: var(--color4);
+}
+
