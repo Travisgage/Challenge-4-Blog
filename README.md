@@ -11,7 +11,7 @@ To use the application, navigate to the URL for the landing page. The user is th
 
 Here is the link to deploy the application:
 
-
+https://travisgage.github.io/Challenge-4-Blog/
 
 
 ![Blog landing page](./assets/images/Blog%20screenshot%20dark%20mode.png)
