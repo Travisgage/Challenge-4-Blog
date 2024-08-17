@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <script defer src="./assets/js/logic.js"></script>
+    <script defer src="./assets/js/form.js"></script>
+    <title>Best-Blog-Ever</title>
+</head>
+
+<body data-theme="light">
+    <header class="site-header">
+        <p>Best Blog Ever</p>
+        <button id="toggleButton" class="icon-button">☀️</button>
+    </header>
+    <div class="panel"></div>
+    <main class="container">
+            <form class= "site-form" method="post">
+                <fieldset>
+                    <legend>What's on your mind?</legend>
+                    <label for="username">Username:</label><input type="text"  name="username" id="username" required>
+                    <label for="title">Title:</label><input type="text"  name="title" id="title" required>
+                    <div>
+                        <label for="content">Content:</label>
+                        <textarea name="content" id="content" required></textarea>
+                    </div>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+    </main>
+    <div class="panel"></div>  
+    <footer class="site-footer">
+        <nav>
+            <ul>
+                <li class="footer-list">
+                   <a href="https://hannahpsmith.github.io/Hannah-Smith-Profile/">Portfolio</a> 
+                </li>
+                <li class="footer-list">
+                    <a href="./index.html">Blog</a>
+                </li>
+                <li class="footer-list">
+                    <a href="mailto:hannahsmithballroom@gmail.com">Email</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>  
+</body>
+</html>
